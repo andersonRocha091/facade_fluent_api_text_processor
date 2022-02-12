@@ -1,0 +1,36 @@
+Arguments: 
+  /home/anderson/.nvm/versions/node/v12.18.0/bin/node /usr/share/yarn/bin/yarn.js init
+
+PATH: 
+  /home/anderson/.nvm/versions/node/v12.18.0/bin:/home/anderson/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/anderson/Android/Sdk/emulator:/home/anderson/Android/Sdk/tools:/home/anderson/Android/Sdk/tools/bin:/home/anderson/Android/Sdk/platform-tools:/home/anderson/Android/Sdk/emulator:/home/anderson/Android/Sdk/tools:/home/anderson/Android/Sdk/tools/bin:/home/anderson/Android/Sdk/platform-tools
+
+Yarn version: 
+  1.22.17
+
+Node version: 
+  12.18.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: canceled
+      at Interface.<anonymous> (/usr/share/yarn/lib/cli.js:137143:13)
+      at Interface.emit (events.js:315:20)
+      at Interface._ttyWrite (readline.js:866:16)
+      at ReadStream.onkeypress (readline.js:205:10)
+      at ReadStream.emit (events.js:315:20)
+      at emitKeys (internal/readline/utils.js:335:14)
+      at emitKeys.next (<anonymous>)
+      at ReadStream.onData (readline.js:1133:36)
+      at ReadStream.emit (events.js:315:20)
+      at addChunk (_stream_readable.js:295:12)
+
+npm manifest: 
+  No manifest
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
